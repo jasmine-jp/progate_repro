@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+  header img {
+    margin-left: 2%;
+  }
+
+  .lessons {
+    height: 1000px;
+  }
+  .lessons .lesson {
+    width: 50%;
+  }
+
+  .modal .form {
+    position: absolute; left: 25%;
+  }
+}

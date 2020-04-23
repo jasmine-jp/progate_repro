@@ -1,0 +1,37 @@
+.faq {
+  background-color: #e6ecf0;
+  padding-top: 80px;
+  color: #5f5d60;
+}
+
+.faq ul {
+  width: 500px;
+  margin: 0 auto;
+  list-style: none;
+  padding-top: 80px; padding-bottom: 80px;
+}
+
+.faq li {
+  margin: 10px 0;
+  text-align: left;
+  border-bottom:1px solid #ccc;
+  position: relative;
+}
+
+.faq h3 {
+  font-size: 14px;
+  
+}
+
+.faq span {
+  color:#ccc;
+  font-size:13px;
+  position: absolute; top: 0; right: 5px;
+}
+
+.faq p {
+  font-size: 12px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display: none;
+}

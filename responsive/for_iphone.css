@@ -1,0 +1,32 @@
+@media (max-width: 670px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  header a {
+    width: 80px;
+    display: none;
+  }
+
+  header .menu {
+    display: inline-block;
+  }
+
+  header .back {
+    float: left;
+  }
+
+  .lessons {
+    height: 1400px;
+  }
+
+  .lessons .lesson {
+    width: 100%;
+    margin-top: -10px;
+    margin-top: 10px;
+  }
+
+  .modal .form {
+    position: absolute; left: 3%;
+  }
+}
