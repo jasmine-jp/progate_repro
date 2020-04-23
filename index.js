@@ -67,18 +67,18 @@ $(function() {
 
   $(window).on('load resize', function() {
     if ($(window).width() <= 670) {
-      $('.lesson-btn, .new-btn, .login-btn').css('display', 'none');
+      $('.fade-menu').css('display', 'none');
       $('.menu').css('display', 'inline-block');
       $('.menu').click(function() {
         $('header img, .menu').fadeOut(500);
-        $('.lesson-btn, .new-btn, .login-btn, .back').delay(1000).fadeIn(500);
+        $('.fade-menu, .back').fadeIn(500);
       });
       $('.back').click(function() {
-        $('.lesson-btn, .new-btn, .login-btn, .back').fadeOut(500);
-        $('header img, .menu').delay(1000).fadeIn(500);
+        $('.fade-menu, .back').fadeOut(500);
+        $('header img, .menu').fadeIn(500);
       });
     } else {
-      $('header img, .lesson-btn, .new-btn, .login-btn').css('display', 'inline-block');
+      $('header img, .fade-menu').css('display', 'inline-block');
       $('.back, .menu').css('display', 'none');
     };
   });
