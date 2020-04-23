@@ -26,6 +26,10 @@
     margin-top: 10px;
   }
 
+  .faq ul {
+    width: 400px;
+  }
+
   .modal .form {
     position: absolute; left: 3%;
   }
